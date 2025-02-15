@@ -18,7 +18,10 @@ public class SomatoriaMain {
 		res = somatoria.Somatoria(valor, res);
 		
 		System.out.println("Somatoria: " +res);
+		
+		scanner.close();
 	}
+	
 	
 	
 }
